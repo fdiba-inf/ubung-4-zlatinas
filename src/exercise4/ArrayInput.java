@@ -7,8 +7,9 @@ public class ArrayInput{
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        int[] numbers = new int[3];
+         
+         int n = input.nextInt();
+         int[] numbers = new int[n];
 
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
